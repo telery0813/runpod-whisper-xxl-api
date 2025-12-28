@@ -1,4 +1,4 @@
-FROM ghcr.io/purfview/faster-whisper-standalone:latest
+FROM purfview/faster-whisper-standalone:latest
 
 RUN apt-get update && apt-get install -y \
     python3 python3-pip ffmpeg \
